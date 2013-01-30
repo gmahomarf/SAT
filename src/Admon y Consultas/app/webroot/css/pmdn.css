@@ -1,0 +1,360 @@
+ï»¿/* ESTILOS GENERALES */
+
+body {
+    text-align: center;
+    background-color: #0715fa;/*#21296B; /*#3366CC;/*#EE8B0C;*/
+    background-image: url('/img/bg.png');
+    background-repeat: repeat-y;
+    background-position: center;
+    font: 9pt tahoma;
+    color: #000;
+    margin: 0px;
+}
+
+a:link, a:visited {
+      color: #2995e1;
+}
+
+form {
+    display: block;
+    overflow: hidden;
+    max-width: 400px;
+    width: auto;
+}
+
+ul {
+    list-style: none;
+    list-style-position: outside;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #444;
+    text-align: center;
+}
+
+td, th{
+    border: 1px solid #444;
+    padding: 1px 4px !important;
+}
+
+div {
+    display: inline-block;
+    width: auto;
+    overflow: auto;
+    height: auto;
+}
+
+/* Div que contiene todo */
+div#principal {
+    min-width: 800px;
+    width: auto;
+    min-height: 600px;
+    height: auto;
+    background-color: #eaf3f5;/*#005577;*/
+    text-align: center;
+    /*min-height: 500px;*/
+    /*width: 80%;*/
+    display: inline-block;
+    padding: 15px;
+    overflow: auto;
+    position: static;
+    margin-top: 0;
+    /*left: 10%;*/
+}
+
+div#navlinks {
+    display: block;
+    text-align: left;
+    overflow: auto;
+    width: auto;
+    height: auto;
+}
+
+div.seccion_transversal, div.graf {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+div.input, div.submit {
+    margin: 2px;
+    display: block;
+    overflow: hidden;
+    text-align: right;
+    width: auto;
+}
+
+div.validation-advice {
+    display: inline;
+    background-color: red;
+    text-align: left;
+    font-weight: bold;
+    color: white;
+    padding: 2px;
+}
+
+h2#hdSubc, h2#hdSecc {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    /*color: #FFF;*/
+    border: 1px solid black;
+    border-bottom: 1px solid #eaf3f5;
+    margin: 10px 0 0;
+}
+
+h2.dis, h2.dis {
+    color: #777 !important;
+    border-bottom: 1px solid black !important;
+    background-color: #CAD3D5;
+}
+
+div#subc, div#secc {
+    border: 1px solid black;
+    padding: 10px 0;
+    margin-top: -1px
+}
+
+div.actions {
+    display: block;
+    width: auto;
+    overflow: auto;
+    height: auto;
+}
+
+div.paging {
+    display: block;
+    width: auto;
+    overflow: auto;
+    height: auto;
+    margin-top: 10px;
+}
+
+a img {
+    border: 1px solid white;
+}
+
+/* Div que muestra el banner */
+div#banner {
+    background-color: transparent;
+    text-align: center;
+    width: 90%;
+    height: 100px;
+    display: block;
+    margin: 3px;
+    font-size: large;
+    position: relative;
+    left: 5%;
+}/* Div al pie de la página */
+div#pie {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: transparent;
+    text-align: center;
+    width: 100%;
+    color: #222222;
+}
+
+
+div#pie a:link, div#pie a:visited {
+      color: #222222;
+}
+
+/* Encabezado de los cuadros de imágenes y enlaces */
+div.encabcuadro {
+    width: 99%;
+    height: auto;
+    background-color: #003355;
+    /* color: white */;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px 0;
+}
+
+hr.divisor {
+    width: 96%;
+    height: 1px;
+    color: black;
+}
+
+.piepagina {
+    text-align: right;
+    float: right;
+    display: block;
+    margin-right: 2%;
+    width: 98%;
+}
+
+div.responsableP img {
+    /* margin-left: 3px; */
+}
+
+tr.head td, tr.head2 td, tr.head th{
+    background-color: #003355;
+    font-weight: bold;
+    text-align: center;
+    border-color: black;
+}
+
+tr.head2 {
+    /*visibility: collapse;*/
+    display: none;
+}
+
+tr.body td{
+    background-color: #006688;
+    text-align: justify;
+    border-color: black;
+    vertical-align: middle;
+    border-width: 1px 0px 1px 0px;
+}
+
+.titulo {
+    font-family: tahoma;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 13pt;
+    /* color: white */;
+    line-height: 175%;
+    display: block;
+    text-align: center;
+}
+
+.titulo2 {
+    font-family: tahoma;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    /* color: white */;
+    line-height: 200%;
+    display: block;
+    text-align: left;
+}
+
+.titulo3 {
+    font-family: tahoma;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    /* color: white */;
+    line-height: 150%;
+    display: block;
+    text-align: left;
+}
+
+/* Tips */
+.tip {
+    background-color: black;
+    opacity: 1;
+    border: 1px solid silver;
+    color: #00FFFF;
+    font-weight: bold;
+    padding: 3px;
+    text-align: center;
+}
+
+div#menupr {
+    background-color: #EEEEF0;
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    /*position: fixed;*/
+    top: 10px;
+    left: 10px;
+    width: 66px;
+    height: 98px;
+    border: 1px solid white;
+    cursor: pointer;
+    z-index: 100;
+    /* top: 10px;
+    left: 0;*/
+}
+
+/* SLIMBOX */
+
+#lbOverlay {
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	cursor: pointer;
+}
+
+#lbCenter, #lbBottomContainer {
+	position: absolute;
+	z-index: 9999;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.lbLoading {
+	background: #fff url(loading.gif) no-repeat center;
+}
+
+#lbImage {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 10px solid #fff;
+	background-repeat: no-repeat;
+}
+
+#lbPrevLink, #lbNextLink {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 50%;
+	outline: none;
+}
+
+#lbPrevLink {
+	left: 0;
+}
+
+#lbPrevLink:hover {
+	background: transparent url(/images/prevlabel.gif) no-repeat 0 15%;
+}
+
+#lbNextLink {
+	right: 0;
+}
+
+#lbNextLink:hover {
+	background: transparent url(/images/nextlabel.gif) no-repeat 100% 15%;
+}
+
+#lbBottom {
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	line-height: 1.4em;
+	text-align: left;
+	border: 10px solid #fff;
+	border-top-style: none;
+}
+
+#lbCloseLink {
+	display: block;
+	float: right;
+	width: 66px;
+	height: 22px;
+	background: transparent url(/images/closelabel.gif) no-repeat center;
+	margin: 5px 0;
+	outline: none;
+}
+
+#lbCaption, #lbNumber {
+	margin-right: 71px;
+}
+
+#lbCaption {
+	font-weight: bold;
+}
+
+
+/* FIN ESTILOS SLIMBOX */
